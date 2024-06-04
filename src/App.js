@@ -1,10 +1,15 @@
+import Navbar from "./components/Navbar.jsx"
+import Hero from "./sections/Tabs/Home/Hero.jsx"
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Hello world this is shivam singh negi</h1>
-    </div>
-  );
+
+export default function App() {
+  return <>
+  <Navbar/>
+  <Hero/>
+
+  
+
+  </>
+    
+  
 }
-
-export default App;
