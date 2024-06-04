@@ -4,16 +4,15 @@ import heroImage from './hero_home_image_consulting.jpg'; // Importing the image
 
 const Hero = () => {
     return (
-
-<section class="border-blue-900  border-[1px]">
+<section class="border-blue-900  border-[1px] mt-11">
 <section class="flex flex-row justify-evenly ">
-    <div class=" ">
-        <h1 class="text-4xl text-white">Masterminds to <br/> Your Positive Goal</h1>
+    <div class=" space-y-10 border-x-white border-[2px]">
+        <h1 class="text-[60px] text-white font-bold">Masterminds to <br/> Your Positive Goal</h1>
         <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt iure,
          exercitationem laborum eum eius atque de excepturi. 
          Aspernatur repudiandae deserunt itaque necessitatibus? Dolor perspiciatis tempora veritatis autem.
        </p>  
-       <div class="flex flex-row justify-start gap-10 text-start">
+       <div class="my-10 flex flex-row justify-start gap-10 text-start">
        <button type="button" class="text-white  bg-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Collaborate With Us</button>
         <button type="button" class=" border-[1px]  border-orange-500 text-orange-500 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Learn More</button>
 
