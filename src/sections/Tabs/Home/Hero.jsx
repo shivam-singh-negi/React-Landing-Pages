@@ -1,7 +1,7 @@
 import { Button,  } from 'flowbite-react';
 import React from 'react';
-import heroImage from './hero_home_image_consulting.jpg'; // Importing the image
-import dot_pattern from "./dot_pattern3.png";
+import heroImage from './assets/hero_home_image_consulting.jpg'; // Importing the image
+import dot_pattern from "./assets/dot_pattern3.png";
 const Hero = () => {
     return (
 <div class="border-blue-900  mt-[50px] space-y-5">
@@ -19,7 +19,7 @@ const Hero = () => {
        <div class="h-[1px] bg-orange-500 w-[70%]"/>
        </div> 
        <div class="relative inline-block">
-        <img class="absolute top-[30px] left-[-100px] w-[200px]   z-10" src={dot_pattern} alt="dot_pattern_image" />
+        <img class="absolute top-[20px] left-[-100px] w-[200px]   z-10" src={dot_pattern} alt="dot_pattern_image" />
         <img class="rounded-3xl w-full h-full grayscale-[100%] z-20" src={heroImage} alt="hero_home_consulting_image" />
         <div class="rounded-3xl absolute border-[1px] border-orange-500 w-full h-full top-[30px] left-[20px] z-30"></div>
 
