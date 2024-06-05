@@ -1,13 +1,13 @@
 import { Button,  } from 'flowbite-react';
 import React from 'react';
 import heroImage from './hero_home_image_consulting.jpg'; // Importing the image
-import dot_pattern from "./dot_pattern1.png";
+import dot_pattern from "./dot_pattern3.png";
 const Hero = () => {
     return (
-<div class="border-blue-900  mt-[50px]">
-<section class="my-[15px] flex flex-row justify-evenly ">
-    <div class=" space-y-10">
-        <h1 class="text-[60px] text-white font-bold">Masterminds to <br/> Your Positive Goal</h1>
+<div class="border-blue-900  mt-[50px] space-y-5">
+<section class=" flex flex-row justify-evenly ">
+    <div class=" flex flex-col pt-10">
+        <h1 class="text-[50px] text-white font-bold">Masterminds to <br/> Your Positive Goal</h1>
         <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt iure,
          exercitationem laborum eum eius atque de excepturi. 
          Aspernatur repudiandae deserunt itaque necessitatibus? Dolor perspiciatis tempora veritatis autem.
@@ -19,16 +19,16 @@ const Hero = () => {
        <div class="h-[1px] bg-orange-500 w-[70%]"/>
        </div> 
        <div class="relative inline-block">
-        <img class="absolute top-[-10px] left-[-50px] w-[200px] rounded-3xl opacity-60 z-10" src={dot_pattern} alt="dot_pattern_image" />
+        <img class="absolute top-[30px] left-[-100px] w-[200px]   z-10" src={dot_pattern} alt="dot_pattern_image" />
         <img class="rounded-3xl w-full h-full grayscale-[100%] z-20" src={heroImage} alt="hero_home_consulting_image" />
-        <div class="rounded-3xl absolute border-[1px] border-orange-500 w-full h-full top-[20px] left-[20px] z-30"></div>
+        <div class="rounded-3xl absolute border-[1px] border-orange-500 w-full h-full top-[30px] left-[20px] z-30"></div>
 
 </div>
 
 </section>
 
 <section class="my-[15px] flex flex-row   text-white items-center">
-<div class="flex-wrap flex-col ">
+<div class="space-y-2 flex-wrap flex-col ">
     <h1 class='text-[20px] font-bold'>This is Our Result</h1>
     <p class="text-gray-300">How capable we are at work shines through in every endevor.</p>
 </div>
