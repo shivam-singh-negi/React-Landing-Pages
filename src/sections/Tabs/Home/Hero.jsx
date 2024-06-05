@@ -1,12 +1,12 @@
 import { Button,  } from 'flowbite-react';
 import React from 'react';
 import heroImage from './hero_home_image_consulting.jpg'; // Importing the image
-
+import dot_pattern from "./dot_pattern1.png";
 const Hero = () => {
     return (
-<section class="border-blue-900  border-[1px] mt-11">
+<section class="border-blue-900  mt-11">
 <section class="flex flex-row justify-evenly ">
-    <div class=" space-y-10 border-x-white border-[2px]">
+    <div class=" space-y-10">
         <h1 class="text-[60px] text-white font-bold">Masterminds to <br/> Your Positive Goal</h1>
         <p class="text-gray-400">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero sunt iure,
          exercitationem laborum eum eius atque de excepturi. 
@@ -19,8 +19,15 @@ const Hero = () => {
        </div>
        </div>
 
-       <div class="">
-    <img src={heroImage} alt="hero_home_consulting_image" class="src" />
+       <div class="relative  inline-block">
+       <img  class=" absolute top-[-10px] left-[-50px] w-[200px] h-[200px]rounded-3xl" src={dot_pattern} alt="dot_pattern_image" />
+
+    <img class="rounded-3xl w-[100%] h-[100%]" src={heroImage} alt="hero_home_consulting_image" />
+    <div class="rounded-3xl absolute border-[1px] border-orange-500 w-[100%] h-[100%] top-[20px] left-[20px]">
+    </div>
+
+
+
 </div>
 
 </section>
