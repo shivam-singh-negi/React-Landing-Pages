@@ -1,12 +1,12 @@
 import React from 'react';
-import black_dot from "./Home/assets/black_dot_horizontal.png"
-import development_icon from "./Home/assets/development_icon.png"
+import black_dot from "./assets/black_dot_horizontal.png"
+import development_icon from "./assets/development_icon.png"
 
-import quality_assurance from "./Home/assets/qa.png"
-import hr from "./Home/assets/hr.png"
-import strategies from "./Home/assets/strategies.png"
-import management from "./Home/assets/management.png"
-import policy from "./Home/assets/Policy.png"
+import quality_assurance from "./assets/qa.png"
+import hr from "./assets/hr.png"
+import strategies from "./assets/strategies.png"
+import management from "./assets/management.png"
+import policy from "./assets/Policy.png"
 
 
 const data = [
